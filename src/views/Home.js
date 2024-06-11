@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
 
 const Home = () => {
@@ -27,26 +29,26 @@ const Home = () => {
                 </div>
                 <div className='w-50'>
                     <div className='row'>
-                        <div class="card c-width mt-2">
+                        <div class="c-width mt-2">
                             <img src="card.png" className="logo" alt="logo" />
                         </div>
-                        <div class="card c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div class="card c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                        <div class="card c-width mt-2">
+                        <div class="c-width mt-2">
                             <img src="card.png" className="logo" alt="logo" />
                         </div>
                     </div>
                     <div className='row'>
-                        <div class="card c-width mt-2">
+                        <div class="c-width mt-2">
                             <img src="card.png" className="logo" alt="logo" />
                         </div>
-                        <div class="card c-width mt-2">
+                        <div class="c-width mt-2">
+                            <img src="card.png" className="logo" alt="logo" />
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div class="c-width mt-2">
+                            <img src="card.png" className="logo" alt="logo" />
+                        </div>
+                        <div class="c-width mt-2">
                             <img src="card.png" className="logo" alt="logo" />
                         </div>
                     </div>
@@ -55,7 +57,10 @@ const Home = () => {
 
             <div className='mt-7 row mb-4 sec-home'>
                 <div className='p-50 section-text w-35'>
-                    <p className='text-white text-end'> ---- </p>
+                    <p className='text-end p-relative fs-5'>
+                        <FontAwesomeIcon icon={faArrowLeft} size="1x" className='mx-1 text-icon'/>
+                        <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1 text-icon2'/>
+                    </p>
                     <p className='text-white fw-bold font-72 text-start'>Exprole Collection</p>
                     <p className='text-white text-justify'>Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
                      Exprole our Showcase models, <span className='fw-bold'> experience the cutting-edge technology,</span> and see for yourself how VR can
@@ -85,6 +90,45 @@ const Home = () => {
                             <p className='p-2 card-description text-justify'>Immerse yourself in this luxurios enviroment with our VR walkthroughs
                             . See how chic black tones and elegant design create a stylish, serene space</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='mt-5 dp-flex'>
+                <div className='w-75'>
+                    <p className='font-white text-start mx-6 fw-bold'>What Our Client Said about us</p>
+                    <p className='font-white-2 text-start mx-6'>Find Out How The Response So Far Has Been:</p>
+                </div>
+                <div className='w-25 p-50'>
+                    <p className='text-center fs-2 mt-2'>
+                        <FontAwesomeIcon icon={faArrowLeft} size="1x" className='mx-1 text-icon3'/>
+                        <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1 text-icon4'/>
+                    </p>
+                </div>
+            </div>
+            <div className='d-flex section-card mx-5 mt-4'>
+                <div className='card mx-2'>
+                    <img src="cardphoto.png" className="logo" alt="logo" />
+                    <div className='card-body'>
+                        <p className='p-2 card-titlle text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+                        <p className='p-2 card-description text-justify'>Immerse yourself in this luxurios enviroment with our VR walkthroughs
+                        . See how chic black tones and elegant design create a stylish, serene space</p>
+                    </div>
+                </div>
+                <div className='card mx-2'>
+                    <img src="cardphoto.png" className="logo" alt="logo" />
+                    <div className='card-body'>
+                        <p className='p-2 card-titlle text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+                        <p className='p-2 card-description text-justify'>Immerse yourself in this luxurios enviroment with our VR walkthroughs
+                        . See how chic black tones and elegant design create a stylish, serene space</p>
+                    </div>
+                </div>
+                <div className='card mx-2'>
+                    <img src="cardphoto.png" className="logo" alt="logo" />
+                    <div className='card-body'>
+                        <p className='p-2 card-titlle text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+                        <p className='p-2 card-description text-justify'>Immerse yourself in this luxurios enviroment with our VR walkthroughs
+                        . See how chic black tones and elegant design create a stylish, serene space</p>
                     </div>
                 </div>
             </div>
