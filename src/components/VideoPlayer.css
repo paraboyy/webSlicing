@@ -1,0 +1,33 @@
+/* styles.css */
+.play-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 100px;
+    color: #ffffff;
+  }
+  
+  .play-button:focus {
+    outline: none;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: black;
+    border-bottom-left-radius: 62px; 
+    border-bottom-right-radius: 62px;
+  }
+  
+  .video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
