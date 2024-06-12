@@ -104,8 +104,8 @@ const Home = () => {
                     <p className='font-white text-start mx-6 fw-bold'>What Our Client Said about us</p>
                     <p className='font-white-2 text-start mx-6'>Find Out How The Response So Far Has Been:</p>
                 </div>
-                <div className='w-25 p-50'>
-                    <p className='text-center fs-2 mt-2'>
+                <div className='w-25 p-55'>
+                    <p className='text-center fs-2'>
                         <FontAwesomeIcon icon={faArrowLeft} size="1x" className='mx-1 text-icon3'/>
                         <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1 text-icon4'/>
                     </p>
