@@ -15,8 +15,8 @@ const Home = () => {
             <div className='mt-5 dp-flex justify-content-center'>
                 <div className='w-50'>
                     <p className='content-border text-center fw-bold'>Exprole Our Virtual Realities:</p>
-                    <span className='font-1 text-white'>The </span>
-                    <span className='font-1 text-white fw-bold line'>interiorVerse</span>
+                    <p className='text-center'><span className='font-1 text-white'>The </span>
+                    <span className='font-1 text-white fw-bold line'>interiorVerse</span></p>
                     <p className='font-1 text-white'>Showcase Collection</p>
                 </div>
             </div>
