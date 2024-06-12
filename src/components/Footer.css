@@ -71,3 +71,10 @@
     color: #3c0089;
 }
 
+.line {
+    position: absolute;
+    left: 40%;
+    bottom: 15px;
+    height: 6px;
+    width: 300px;
+}

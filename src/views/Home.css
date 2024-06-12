@@ -66,6 +66,7 @@
 .container-sub {
     background-color: #1f0037;
     border-radius: 190px;
+    position: relative;
 }
 
 .container-email {
