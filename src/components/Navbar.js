@@ -6,6 +6,10 @@ import './Navbar.css';
 const Navbar = () => {
     const [dropdownVisible, setDropdownVisible] = useState(false);
 
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const toggleSwitch = () => {setIsDarkMode(!isDarkMode);};
+
   return (
     <div className='backgorund pt-4'>
         <div class="container-card justify-content-center">
@@ -38,6 +42,15 @@ const Navbar = () => {
                 <button className='fw-bold'><FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/>WebApp</button>
                 <button className='fw-bold'><FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/>iOS/Android</button>
                 <button className='fw-bold'><FontAwesomeIcon icon={faHand} size="1x" className='mx-1'/>Contact Us</button>
+                <div className={`toggle-switch ${isDarkMode ? 'dark' : 'light'}`} onClick={toggleSwitch}>
+                    <div className="toggle-thumb">
+                    {isDarkMode ? <img src='sun.png' alt="sun" className='icon-logo-2' /> : <img src='moon.png' alt="moon" className='icon-logo-2' />}
+                    </div>
+                </div>
+                {/* <div className='h-60 mt-1'>
+                    <img className="icon-logo-2 img-card" src="moon.png" alt="interiorVerse" />
+                    <img className="icon-logo-2 img-card-2" src="moon.png" alt="interiorVerse" />
+                </div> */}
             </div>
             </div>
         </div>

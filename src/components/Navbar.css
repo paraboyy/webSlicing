@@ -17,7 +17,7 @@ body, html {
 
 .navbar-card {
     border-radius: 33px;
-    width: 120%;
+    width: 110%;
     align-items: center;
     background: linear-gradient(to right, #3C0089, #9747FF);
     box-shadow: 
@@ -30,10 +30,35 @@ body, html {
     margin-bottom: 10px;
   }
   
-  .logo-size {
+.logo-size {
     width: 75px;
     height: 75px;
     margin-right: 10px;
+  }
+
+.h-60 {
+    height: 40px;
+  }
+
+.icon-logo-2 {
+    height: 40px;
+    width: 40px;
+    padding: 20%;
+  }
+
+  .img-card {
+    background-color: #fff;
+    width: 50px;
+    padding: 10% 20% 10% 20%;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  .img-card-2 {
+    background-color: #7f1dff;
+    width: 50px;
+    padding: 10% 20% 10% 20%;
+    margin-left: -25px;
+    border-radius: 20px;
   }
 
   .dropdown-content{
@@ -83,4 +108,54 @@ body, html {
   .navbar-links button:hover {
     background-color: #9370db;
   }
+
+  .toggle-switch {
+    margin-top: 5px;
+    width: 83px;
+    height: 36px;
+    background: #7a00ff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    box-shadow: 6.4px 6.4px 8.8px 0px rgba(0, 0, 0, 0.2),
+                -3.2px -4.8px 8px 0px rgba(255, 255, 255, 0.1),
+                -4px -2.4px 4px 0px rgba(0, 0, 0, 0.33) inset,
+                3.2px 3.2px 4px 0px rgba(255, 255, 255, 0.2) inset;
+  }
+  
+  .toggle-thumb {
+    width: 46px;
+    height: 36px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: transform 0.3s ease;
+    box-shadow: 6.4px 6.4px 8.8px 0px rgba(0, 0, 0, 0.2),
+                -3.2px -4.8px 8px 0px rgba(255, 255, 255, 0.1),
+                -4px -2.4px 4px 0px rgba(0, 0, 0, 0.33) inset,
+                3.2px 3.2px 4px 0px rgba(255, 255, 255, 0.2) inset
+  }
+  
+  .toggle-switch.light .toggle-thumb {
+    transform: translateX(0);
+  }
+  
+  .toggle-switch.dark .toggle-thumb {
+    transform: translateX(47px);
+  }
+  
+  .toggle-switch.light {
+    background: #7a00ff;
+  }
+  
+  .toggle-switch.dark {
+    background: #9c00ff;
+  }
+
   
