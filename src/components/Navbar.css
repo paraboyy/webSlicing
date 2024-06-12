@@ -86,7 +86,7 @@ body, html {
     text-align: center;
     padding: 5% 0% 5% 0%;
     box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.8), ;
-    background-color: #9747FF;
+    background-color: #7f1dff;
     border-radius: 0px 0px 10px 10px;
     /* border: 1px solid black; */
   }
@@ -123,7 +123,7 @@ body, html {
     margin-top: 5px;
     width: 83px;
     height: 36px;
-    background: #7a00ff;
+    background: #7f1dff;
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -161,11 +161,11 @@ body, html {
   }
   
   .toggle-switch.light {
-    background: #7a00ff;
+    background: #7f1dff;
   }
   
   .toggle-switch.dark {
-    background: #9c00ff;
+    background: #7f1dff;
   }
 
   
