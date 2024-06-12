@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import VideoPlayer from './components/VideoPlayer';
+import Subs from './components/subs';
 import Home from './views/Home';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <VideoPlayer />
       <Home/>
+      <Subs/>
     </div>
   );
 }
