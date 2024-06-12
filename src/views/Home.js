@@ -2,13 +2,19 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faArrowLeft, faArrowRight, faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
+import Navbar from '../components/Navbar';
+import VideoPlayer from '../components/VideoPlayer';
+import Footer from '../components/Footer';
+import Subs from '../components/subs';
 
 const Home = () => {
     return(
         <div>
+            <Navbar />
+            <VideoPlayer />
             <div className='mt-5 dp-flex justify-content-center'>
                 <div className='w-50'>
-                    <p className='content-border fw-bold'>Exprole Our Virtual Realities:</p>
+                    <p className='content-border text-center fw-bold'>Exprole Our Virtual Realities:</p>
                     <span className='font-1 text-white'>The </span>
                     <span className='font-1 text-white fw-bold line'>interiorVerse</span>
                     <p className='font-1 text-white'>Showcase Collection</p>
@@ -157,6 +163,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Subs />
+            <Footer />
         </div>
     );
 };

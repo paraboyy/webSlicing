@@ -20,6 +20,16 @@
     border-bottom-left-radius: 62px; 
     border-bottom-right-radius: 62px;
   }
+ 
+  .video-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: black;
+    border-top-left-radius: 62px; 
+    border-top-right-radius: 62px;
+  }
   
   .video-player {
     display: flex;

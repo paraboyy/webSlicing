@@ -12,8 +12,8 @@ const Navbar = () => {
     const toggleSwitch = () => {setIsDarkMode(!isDarkMode);};
 
   return (
-    <div className='backgorund pt-4'>
-        <div class="container-card justify-content-center">
+    <div className='pt-4'>
+        <div class="container-card-2 justify-content-center">
             <div className="navbar-card row">
             <div className="navbar-brand w-25 mt-2">
                 <img className="logo-size" src="logo.png" alt="interiorVerse" />
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-links w-75">
-                <Link to="/"><button className='fw-bold'><FontAwesomeIcon icon={faHouse} size="1x" className='mx-1'/>Home</button></Link>
+                <button className='fw-bold'><FontAwesomeIcon icon={faHouse} size="1x" className='mx-1'/>Home</button>
                 <div className="dropdown"
                 onMouseEnter={() => setDropdownVisible(true)}
                 onMouseLeave={() => setDropdownVisible(false)}
