@@ -71,12 +71,14 @@
     color: #3c0089;
 }
 
-.line {
+.line-2 {
     position: absolute;
     left: 40%;
     bottom: 15px;
     height: 6px;
     width: 300px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .p-55 {

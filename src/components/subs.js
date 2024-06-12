@@ -23,7 +23,7 @@ const Subs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='line'></div>
+                    <div className='line-2'></div>
                 </div>
             </div>
         </div>
