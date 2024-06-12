@@ -115,7 +115,7 @@ const Home = () => {
                 <div className='section-card p-3'>
                     <div className='card-slide-active mx-2'>
                         <div className='dp-flex p-3'>
-                            <img src="cardphoto.png" className="logo-card w-25" alt="logo" />
+                            <img src="profil-1.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
                                 <p className='text-start fs-28'>Amelia Joseph</p>
                                 <p className='fw-bold text-start fs-15'>Chief Manager</p>
@@ -127,7 +127,7 @@ const Home = () => {
                     </div>
                     <div className='card-slide mx-2'>
                         <div className='dp-flex p-3'>
-                            <img src="cardphoto.png" className="logo-card w-25" alt="logo" />
+                            <img src="profil-2.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
                                 <p className='text-start fs-28'>Jacob Joshua</p>
                                 <p className='fw-bold text-start fs-15'>Chief Manager</p>
@@ -139,7 +139,7 @@ const Home = () => {
                     </div>
                     <div className='card-slide mx-2'>
                         <div className='dp-flex p-3'>
-                            <img src="cardphoto.png" className="logo-card w-25" alt="logo" />
+                            <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
                                 <p className='text-start fs-28'>Jacob Joshua</p>
                                 <p className='fw-bold text-start fs-15'>Chief Manager</p>
@@ -151,7 +151,19 @@ const Home = () => {
                     </div>
                     <div className='card-slide mx-2'>
                         <div className='dp-flex p-3'>
-                            <img src="cardphoto.png" className="logo-card w-25" alt="logo" />
+                            <img src="profil-2.png" className="logo-card w-25" alt="logo" />
+                            <div className='w-75 mt-3'>
+                                <p className='text-start fs-28'>Jacob Joshua</p>
+                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                            </div>
+                        </div>
+                        <div className='card-body padding-4'>
+                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                        </div>
+                    </div>
+                    <div className='card-slide mx-2'>
+                        <div className='dp-flex p-3'>
+                            <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
                                 <p className='text-start fs-28'>Jacob Joshua</p>
                                 <p className='fw-bold text-start fs-15'>Chief Manager</p>
