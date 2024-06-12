@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faCircleInfo, faArrowRight, faHand, faTag } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faCircleInfo, faArrowRight, faHand, faTag, faSun } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <button className='fw-bold'><FontAwesomeIcon icon={faHand} size="1x" className='mx-1'/>Contact Us</button>
                 <div className={`toggle-switch ${isDarkMode ? 'dark' : 'light'}`} onClick={toggleSwitch}>
                     <div className="toggle-thumb">
-                    {isDarkMode ? <img src='sun.png' alt="sun" className='icon-logo-2' /> : <img src='moon.png' alt="moon" className='icon-logo-2' />}
+                    {isDarkMode ? <FontAwesomeIcon icon={faSun} size="1x" className='mx-1'/> : <img src='moon.png' alt="moon" className='icon-logo-2' />}
                     </div>
                 </div>
                 {/* <div className='h-60 mt-1'>
