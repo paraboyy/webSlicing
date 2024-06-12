@@ -37,3 +37,27 @@
     border-bottom-left-radius: 62px; 
     border-bottom-right-radius: 62px;
 }
+
+.element {
+    background-color: rgba(37, 0, 185, 0.33); /* Menggunakan rgba untuk transparansi */
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -2030px;
+    left: 1150px;
+    box-shadow: 0 0 20px rgba(37, 0, 185, 0.5); 
+    border-radius: 120px;
+    filter: blur(45px); 
+}
+
+
+.element-2 {
+    background-color: rgba(104, 0, 185, 0.33); /* Menggunakan rgba untuk transparansi */
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -730px;
+    box-shadow: 0 0 20px rgba(104, 0, 185, 0.5); 
+    border-radius: 120pxx;
+    filter: blur(45px); 
+}

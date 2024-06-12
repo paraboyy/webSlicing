@@ -6,12 +6,12 @@ import '../views/Home.css';
 const Subs = () => {
     return (
         <div>
-            <div className='mt-5 p-50 mb-5'>
+            <div className='p-60'>
                 <div className='container-sub padding-10'>
                     <p className='text-sub text-end' data-text="Subscribe To Our">Subscribe To Our</p>
                     <div className='dp-flex mt-n-75'>
                         <div className='w-65'>
-                            <img src='imgsub.png' className='logo-sub mt-5'/>
+                            <img src='imgsub.png' className='logo-sub mt-5 dp-flex'/>
                         </div>
                         <div className='w-35'>
                             <p className='text-sub text-end mb-5'>Updates</p>

@@ -7,7 +7,7 @@ import Subs from '../components/subs';
 
 const Individual = () => {
     return (
-        <div>
+        <div className='p-absolute'>
             <Navbar/>
 
             <div className='p-50'>
@@ -41,7 +41,9 @@ const Individual = () => {
                 </div>
             </div>
 
+            <div className='element-2'></div>
             <Subs />
+            <div className='element'></div>
             <Footer />
         </div>
     );
