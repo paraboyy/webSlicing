@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleLeft, faArrowRight, faCirclePlay } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../views/Home.css';
 
 const Subs = () => {
@@ -11,13 +11,22 @@ const Subs = () => {
                     <p className='text-sub text-end' data-text="Subscribe To Our">Subscribe To Our</p>
                     <div className='dp-flex mt-n-75'>
                         <div className='w-65'>
-                            <video src='card-video.mp4' className='logo-sub mt-5 dp-flex' controls>and also I can see different sizes and spaces and etc... on your work.</video>                        
+                            <video 
+                                src='card-video.mp4' 
+                                className='logo-sub mt-5 dp-flex' 
+                                controls 
+                                autoPlay 
+                                muted
+                                loop
+                            >
+                                and also I can see different sizes and spaces and etc... on your work.
+                            </video>                        
                         </div>
                         <div className='w-35'>
                             <p className='text-sub text-end mb-5'>Updates</p>
                             <p className='text-sub-des text-end'>Stay in the loop with latest developments as we welcome the future, together.</p>
                             <div className='dp-flex mb-3 justify-content-end'>
-                                <img className="icon-size w-15 mx-2" src="Play Circle.png" />
+                                <img className="icon-size w-15 mx-2" src="Play Circle.png" alt="Play Icon" />
                                 <span className='text-white text-end fs-5'>View Past Newsletters</span>
                             </div>
                             <div className='row'>
