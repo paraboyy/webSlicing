@@ -39,10 +39,27 @@ const Navbar = () => {
                     )}
                 </div>
                 <button className='fw-bold'><FontAwesomeIcon icon={faTag} size="1x" className='mx-1'/>Pricing</button>
-                <Link to="/individu"><button className='fw-bold'><FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/>interioXr</button></Link>
-                <button className='fw-bold'><FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/>WebApp</button>
-                <button className='fw-bold'><FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/>iOS/Android</button>
-                <button className='fw-bold'><FontAwesomeIcon icon={faHand} size="1x" className='mx-1'/>Contact Us</button>
+                <Link to="/individu">
+                    <button className='fw-bold'>
+                        <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
+                        interioXr
+                    </button>
+                </Link>
+                <button className='fw-bold'>
+                    <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
+                    {/* <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/> */}
+                    WebApp
+                </button>
+                <button className='fw-bold'>
+                    <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
+                    {/* <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/> */}
+                    iOS/Android
+                </button>
+                <button className='fw-bold'>
+                    <img className="icon-size-2 mr-2" src="hand.svg" alt="interiorVerse" />
+                    {/* <FontAwesomeIcon icon={faHand} size="1x" className='mx-1'/> */}
+                    Contact Us
+                </button>
                 <div className={`toggle-switch ${isDarkMode ? 'dark' : 'light'}`} onClick={toggleSwitch}>
                     <div className="toggle-thumb">
                     {isDarkMode ? <FontAwesomeIcon icon={faSun} size="1x" className='mx-1'/> : <img src='moon.png' alt="moon" className='icon-logo-2' />}
