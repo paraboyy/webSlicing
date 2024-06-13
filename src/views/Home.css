@@ -56,6 +56,10 @@
     margin-right: 2rem;
 }
 
+.ml-1{
+    margin-left: 2px;
+}
+
 .scroll-container {
     overflow-x: auto;
     /* display: flex; */

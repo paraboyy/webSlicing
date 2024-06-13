@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='dp-flex p-11 pt-5'>
                 <div className='w-25'>
                     <div className='dp-flex'>
-                        <img className="logo-size" src="logo.png" alt="interiorVerse" />
+                        <img className="logo-size-2" src="logo.png" alt="interiorVerse" />
                         <div className="">
                             <span className="text-1">interiorVerse</span>
                             <h6 className="text-2 text-start">by interio<span className='fw-bold'>Xr</span></h6>
