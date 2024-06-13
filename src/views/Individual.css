@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 1024px) {
+    body, html {
+        width: 100%;
+    }
+
     .text-indv {
         font-size: 18px;
     }
@@ -73,5 +77,13 @@
 
     .text-56 {
         font-size: 40px;
+    }
+
+    .element {
+        left:  70%;
+    }
+
+    .container-email {
+        height: 37px;
     }
 }

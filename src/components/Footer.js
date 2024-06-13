@@ -50,7 +50,7 @@ const Footer = () => {
                 <div className='w-25 p-7'>
                     <p className='bold text-start'>Join Our Newsletters</p>
                     <span className='text-start icon-text dp-flex'>Your Email</span>
-                    <input className='p-4 fs-7' placeholder='Enter Your Email'></input>
+                    <input className='p-3 fs-7' placeholder='Enter Your Email'></input>
                     <button className='btn w-100 mt-3 fw-bold'>Subscribe</button>
                 </div>
             </div>

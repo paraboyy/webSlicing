@@ -85,7 +85,7 @@
 
 .container-sing {
     background-color: #7f1dff;
-    margin-left: -45px;
+    margin-left: -4rem;
     padding: 2%;
     border-radius: 90px;
     box-shadow: 8px 8px 11px 0px rgba(0, 0, 0, 0.2),
@@ -409,5 +409,10 @@
     .text-sub-des {
         font-size: 23px;
     }
+
+    .mt-n-75 {
+        margin-top: -60px;
+    }
+
 }
 
