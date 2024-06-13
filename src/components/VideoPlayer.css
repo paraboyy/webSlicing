@@ -5,13 +5,27 @@
     cursor: pointer;
     font-size: 100px;
     color: #ffffff;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    outline: none;
+    opacity: 0;
+    transition: opacity 0.3s;
   }
   
   .play-button:focus {
     outline: none;
   }
+
+
+.video-player:hover .play-button {
+  opacity: 1;
+}
   
   .video-container {
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +46,18 @@
   }
   
   .video-player {
+    position: relative;
+    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px; 
-    height: 200px; 
+    width: 500px; 
+    height: 500px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
+.logo-2 {
+  height: 50%;
+  width: 100%;
+}

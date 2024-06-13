@@ -11,7 +11,7 @@ const Subs = () => {
                     <p className='text-sub text-end' data-text="Subscribe To Our">Subscribe To Our</p>
                     <div className='dp-flex mt-n-75'>
                         <div className='w-65'>
-                            <video src='card-video.mp4' className='logo-sub mt-5 dp-flex' controls>Your browser does not support the video tag.</video>                        
+                            <video src='card-video.mp4' className='logo-sub mt-5 dp-flex' controls>and also I can see different sizes and spaces and etc... on your work.</video>                        
                         </div>
                         <div className='w-35'>
                             <p className='text-sub text-end mb-5'>Updates</p>
