@@ -19,7 +19,7 @@ const Subs = () => {
                             <p className='text-white text-end fs-5'><FontAwesomeIcon className='mx-2' icon={faCirclePlay} size="1x"/>View Past Newsletters</p>
                             <div className='row'>
                                 <p className='text-white text-center w-75 container-email'>Email Address</p>
-                                <p className='text-white text-center w-25 fw-bold container-sing'>Sign Up!<FontAwesomeIcon className='mx-1' icon={faArrowRight} size="1x"/></p>
+                                <p className='text-white text-center w-32 fw-bold container-sing'>Sign Up!<FontAwesomeIcon className='mx-1' icon={faArrowRight} size="1x"/></p>
                             </div>
                         </div>
                     </div>
