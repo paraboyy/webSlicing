@@ -305,3 +305,65 @@
 .mt-n-75 {
     margin-top: -75px;
 }
+
+@media (max-width: 1024px) {
+    .content-border{
+        font-size: 35px;
+    }
+
+    .font-1 {
+        font-size: 50px;
+    }
+
+    .font-2 {
+        font-size: 20px;
+    }
+
+    .c-width {
+        width: 15rem;
+    }
+
+    .font-72 {
+        font-size: 50px;
+    }
+
+    .card-titlle {
+        font-size: 20px;
+    }
+
+    .card-description {
+        font-size: 15px;
+    }
+    
+    .font-white {
+        font-size: 35px;
+    }
+
+    .font-white-2 {
+        font-size: 15px;
+    }
+
+    .card-slide-active {
+        width: 25rem;
+    }
+    
+    .card-slide {
+        width: 25rem;
+    }
+
+    .logo-card {
+        padding: 5% 2% 5% 2%;
+    }
+    
+    .text-sub {
+        font-size: 80px;
+    }
+    
+    .logo-sub {
+        margin-left: 5rem;
+    }
+
+    .text-sub-des {
+        font-size: 23px;
+    }
+}

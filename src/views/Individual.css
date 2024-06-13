@@ -61,3 +61,17 @@
     border-radius: 120pxx;
     filter: blur(45px); 
 }
+
+@media (max-width: 1024px) {
+    .text-indv {
+        font-size: 18px;
+    }
+
+    .text-indv-2 {
+        font-size: 50px;
+    }
+
+    .text-56 {
+        font-size: 40px;
+    }
+}

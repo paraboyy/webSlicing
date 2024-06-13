@@ -88,3 +88,22 @@
 .p-60 {
     padding: 0% 2% 0% 2%;;
 }
+
+@media (max-width: 1024px) {
+    .text-1 {
+        font-size: 20px;
+    }
+
+    .text-2 {
+        font-size: 15px;
+        margin-top: 1px;
+    }
+
+    .icon-text-2 {
+        font-size: 12px;
+    }
+
+    .icon-text {
+        font-size: 10px;
+    }
+}
