@@ -163,10 +163,20 @@ body, html {
   .toggle-switch.light {
     background: #7f1dff;
   }
-  
+
+  .mr-2 {
+    margin-right: 7px;
+  }
+
   .toggle-switch.dark {
     background: #7f1dff;
   }
+
+.icon-size-3 {
+  width: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
 
   @media (max-width: 1024px) {
     .navbar-links button {
