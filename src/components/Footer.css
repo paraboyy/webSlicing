@@ -89,7 +89,7 @@
     padding: 0% 2% 0% 2%;;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (max-width: 1599px) {
     .text-1 {
         font-size: 20px;
     }

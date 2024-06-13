@@ -191,7 +191,7 @@ body, html {
   margin-right: 7px;
 }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1024px) and (max-width: 1599px) {
     .navbar-links button {
         font-size: 7px;
         display: flex;
@@ -217,7 +217,7 @@ body, html {
 
   @media (max-width: 1600px) {
     .navbar-card {
-      width: 115%;
+      width: 125%;
     }
 
     .logo-size {
