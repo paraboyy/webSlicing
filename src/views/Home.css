@@ -71,6 +71,8 @@
 }
 
 .container-email {
+    background-color: transparent;
+    height: 43px;
     margin-left: 2%;
     border: 2px solid #7f1dff;
     padding: 2%;

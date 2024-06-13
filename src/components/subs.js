@@ -30,7 +30,7 @@ const Subs = () => {
                                 <span className='text-white text-end fs-5'>View Past Newsletters</span>
                             </div>
                             <div className='row'>
-                                <p className='text-white text-center w-75 container-email'>Email Address</p>
+                                <input className='text-white text-center w-75 container-email' placeholder='Email Address'></input>
                                 <p className='text-white text-center w-32 fw-bold container-sing'>Sign Up!<FontAwesomeIcon className='mx-1' icon={faArrowRight} size="1x"/></p>
                             </div>
                         </div>
