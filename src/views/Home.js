@@ -33,30 +33,7 @@ const Home = () => {
                     <button className='btn dp-block mt-5'>See playlist<FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-2'/></button>
                 </div>
                 <div className='w-50 card-after'>
-                    <div className='row'>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                        <div class="c-width mt-2">
-                            <img src="card.png" className="logo" alt="logo" />
-                        </div>
-                    </div>
+                    <img className="icon-2" src="Component 11.png" alt="interiorVerse" />
                 </div>
             </div>
 
