@@ -60,7 +60,7 @@
     overflow-x: auto;
     /* display: flex; */
     flex-wrap: nowrap;
-    width: 98%;
+    width: 100%;
     /* padding: 20px; */
 }
 
@@ -173,6 +173,7 @@
 .sec-home {
     /* display: flex; */
     flex-wrap: nowrap;
+    width: 100%;
     overflow-x: auto;
 }
 

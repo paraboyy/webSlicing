@@ -88,7 +88,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div class='scroll-container mx-5 mt-4 mb-5'>
+            <div class='scroll-container mt-4 mb-5'>
                 <div className='section-card p-3'>
                     <div className='card-slide-active mx-2'>
                         <div className='dp-flex p-3'>

@@ -204,6 +204,6 @@ body, html {
 
   @media (max-width: 1600px) {
     .navbar-card {
-      width: 120%;
+      width: 110%;
     }
   }
