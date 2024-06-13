@@ -22,11 +22,17 @@ const Footer = () => {
                 <div className='w-25 p-7'>
                     <p className='bold text-start'>Get in Touch</p>
                     <div className='dp-flex'>
-                        <FontAwesomeIcon icon={faLocationDot} size="1x" className='mx-2 text-pupple'/>
-                        <p className='text-start icon-text'>1004, 10th Floor, Galleria Mkt.,DLF Phase IV, Gurugram</p>
+                        <img className="icon-size-2 mx-2" src="Group.svg" />
+                        <p className='text-start icon-text ml-7'>1004, 10th Floor, Galleria Mkt.,DLF Phase IV, Gurugram</p>
                     </div>
-                    <p className='text-start icon-text'><FontAwesomeIcon icon={faEnvelope} size="1x" className='mx-2 text-pupple'/>info@interioXr.com</p>
-                    <p className='text-start icon-text'><FontAwesomeIcon icon={faPhone} size="1x" className='mx-2 text-pupple'/>+91 9560013324</p>
+                    <div className='dp-flex'>
+                        <img className="icon-size-2 mx-2" src="Mail.svg" />
+                        <p className='text-start icon-text'>info@interioXr.com</p>
+                    </div>
+                    <div className='dp-flex'>
+                        <img className="icon-size-2 mx-2" src="Phone.svg" />
+                        <p className='text-start icon-text'>+91 9560013324</p>
+                    </div>
                 </div>
 
                 <div className='w-25 p-7'>
