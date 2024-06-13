@@ -32,7 +32,7 @@ const Home = () => {
                      with stunning <span className='fw-bold'>realism</span></p>
                     <button className='btn dp-block mt-5'>See playlist<FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-2'/></button>
                 </div>
-                <div className='w-50'>
+                <div className='w-50 card-after'>
                     <div className='row'>
                         <div class="c-width mt-2">
                             <img src="card.png" className="logo" alt="logo" />
@@ -117,8 +117,8 @@ const Home = () => {
                         <div className='dp-flex p-3'>
                             <img src="profil-1.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <p className='text-start fs-28'>Amelia Joseph</p>
-                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28'>Amelia Joseph</span>
+                                <p className='bold text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
@@ -129,8 +129,8 @@ const Home = () => {
                         <div className='dp-flex p-3'>
                             <img src="profil-2.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <p className='text-start fs-28'>Jacob Joshua</p>
-                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28'>Jacob Joshua</span>
+                                <p className='bold text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
@@ -141,8 +141,8 @@ const Home = () => {
                         <div className='dp-flex p-3'>
                             <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <p className='text-start fs-28'>Jacob Joshua</p>
-                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28'>Jacob Joshua</span>
+                                <p className='bold text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
@@ -153,8 +153,8 @@ const Home = () => {
                         <div className='dp-flex p-3'>
                             <img src="profil-2.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <p className='text-start fs-28'>Jacob Joshua</p>
-                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28'>Jacob Joshua</span>
+                                <p className='bold text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
@@ -165,8 +165,8 @@ const Home = () => {
                         <div className='dp-flex p-3'>
                             <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <p className='text-start fs-28'>Jacob Joshua</p>
-                                <p className='fw-bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28'>Jacob Joshua</span>
+                                <p className='bold text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>

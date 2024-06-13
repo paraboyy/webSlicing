@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
 
                 <div className='w-25 p-7'>
-                    <p className='fw-bold text-start'>Get in Touch</p>
+                    <p className='bold text-start'>Get in Touch</p>
                     <div className='dp-flex'>
                         <FontAwesomeIcon icon={faLocationDot} size="1x" className='mx-2 text-pupple'/>
                         <p className='text-start icon-text'>1004, 10th Floor, Galleria Mkt.,DLF Phase IV, Gurugram</p>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
 
                 <div className='w-25 p-7'>
-                    <p className='fw-bold text-start'>Recent Posts</p>
+                    <p className='bold text-start'>Recent Posts</p>
                     <div className='dp-flex'>
                         <img className="icon-logo" src="post-card-1.png" alt="interiorVerse" />
                         <p className='text-start icon-text'>"Designing in a New Dimension: Unleashing Your Creativity with interiorVerse"</p>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
 
                 <div className='w-25 p-7'>
-                    <p className='fw-bold text-start'>Join Our Newsletters</p>
+                    <p className='bold text-start'>Join Our Newsletters</p>
                     <span className='text-start icon-text dp-flex'>Your Email</span>
                     <input className='p-4 fs-7' placeholder='Enter Your Email'></input>
                     <button className='btn w-100 mt-3 fw-bold'>Subscribe</button>
