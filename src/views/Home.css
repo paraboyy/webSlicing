@@ -13,10 +13,21 @@
 }
 
 .button-container-2 {
-    /* display: flex; */
-    justify-content: end;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     /* height: 100%; */
+}
+
+.button-custom-2, .button-custom-3 {
+    /* background: none;   */
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+    /* margin: 0 5px;   */
+    /* height: 100%; */
+    /* width: 100%; */
+    border-radius: 20px;
 }
 
 .button-custom {
@@ -27,6 +38,14 @@
     /* margin: 0 5px;   */
     height: 100%;
     width: 100%;
+}
+
+.button-custom-3 {
+    background-color: #f8f9ff;
+}
+
+.button-custom-2 {
+    background-color: #7f1dff;
 }
 
 .dp-flex {
@@ -63,6 +82,8 @@
     width: 28rem;
     background-color: #d9d9d9;
     border-radius: 27.5px;
+    /* min-width: 100%; */
+    transition: transform 0.5s ease;
 }
 
 .card-slide-active {
@@ -226,12 +247,13 @@
 }
 
 .section-card {
-    /* overflow-x: auto; */
+    overflow-x: auto;
     /* white-space: nowrap;  */
     /* -ms-overflow-style: none; */
     /* scrollbar-width: none; */
     display: flex;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    scroll-behavior: smooth;
 }
 
 .section-card::-webkit-scrollbar {
