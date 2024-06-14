@@ -22,7 +22,7 @@
 .button-custom-2, .button-custom-3 {
     /* background: none;   */
     border: none; 
-    padding: 10px;
+    padding: 10px 15px 10px 10px;
     cursor: pointer;
     /* margin: 0 5px;   */
     /* height: 100%; */
@@ -110,7 +110,7 @@
 .scroll-container {
     overflow-x: auto;
     /* display: flex; */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     width: 100%;
     /* padding: 20px; */
 }
@@ -151,6 +151,10 @@
 
 .scroll-container::-webkit-scrollbar {
     display: none;
+}
+
+.card-body {
+    white-space: normal;
 }
 
 .card-slide {
