@@ -11,14 +11,20 @@ const Home = () => {
     const [cardIndex, setCardIndex] = useState(0);
     const scrollContainerRef = useRef(null);
 
-    const handleLeftClick = () => {
-        setCardIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : prevIndex));
+     const handleLeftClick = () => {
+        if (cardIndex > 0) {
+            setCardIndex(cardIndex - 1);
+        }
     };
 
     const handleRightClick = () => {
-        setCardIndex((prevIndex) => (prevIndex < 2 ? prevIndex + 1 : prevIndex)); // Assuming there are 3 cards
+        // Jumlah card bisa disesuaikan dengan jumlah card yang ada.
+        const totalCards = 3; // Misalkan ada 3 card, sesuaikan dengan kebutuhan
+        if (cardIndex < totalCards - 1) {
+            setCardIndex(cardIndex + 1);
+        }
     };
-
+    
     const scrollContainer = (direction) => {
         if (scrollContainerRef.current) {
             const scrollAmount = 300; // Adjust this value as needed
@@ -77,8 +83,8 @@ const Home = () => {
                     </div>
                     <p className='text-white fw-bold font-72 text-start'>Explore Collection</p>
                     <p className='text-white text-justify'>Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
-                     Explore our Showcase models, <span className='fw-bold'> experience the cutting-edge technology,</span> and see for yourself how VR can
-                     <span className='fw-bold'> transform your design</span> process</p>
+                    Explore our Showcase models, <span className='fw-bold'> experience the cutting-edge technology,</span> and see for yourself how VR can
+                    <span className='fw-bold'> transform your design</span> process</p>
                 </div>
                 <div className='d-flex section-card' style={{ transform: `translateX(-${cardIndex * 100}%)`, transition: 'transform 0.5s ease' }}>
                     <div className='card mx-2'>
