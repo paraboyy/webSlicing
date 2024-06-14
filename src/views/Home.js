@@ -39,10 +39,16 @@ const Home = () => {
 
             <div className='mt-7 row mb-4 sec-home'>
                 <div className='p-50 section-text w-35'>
-                    <p className='text-end p-relative fs-5'>
-                        <FontAwesomeIcon icon={faArrowLeft} size="1x" className='mx-1 text-icon'/>
-                        <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1 text-icon2'/>
-                    </p>
+                    {/* <p className='text-end p-relative fs-5'> */}
+                    <div className='button-container-2 row'>
+                        <button className='button-custom w-15 mr-n-1'>
+                            <FontAwesomeIcon icon={faArrowLeft} size="2x" className='mx-1 pr-90 text-icon'/>
+                        </button>
+                        <button className='button-custom w-15'>
+                            <FontAwesomeIcon icon={faArrowRight} size="2x" className='mx-1 text-icon2'/>
+                        </button>
+                    </div>
+                    {/* </p> */}
                     <p className='text-white fw-bold font-72 text-start'>Exprole Collection</p>
                     <p className='text-white text-justify'>Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
                      Exprole our Showcase models, <span className='fw-bold'> experience the cutting-edge technology,</span> and see for yourself how VR can
@@ -82,10 +88,14 @@ const Home = () => {
                     <p className='font-white-2 text-start mx-6'>Find Out How The Response So Far Has Been:</p>
                 </div>
                 <div className='w-25 p-55'>
-                    <p className='text-center fs-2'>
-                        <FontAwesomeIcon icon={faArrowLeft} size="1x" className='mx-1 text-icon3'/>
-                        <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1 text-icon4'/>
-                    </p>
+                    <div className='button-container'>
+                        <button className='button-custom'>
+                            <FontAwesomeIcon icon={faArrowLeft} size="2x" className='mx-1 text-icon3'/>
+                        </button>
+                        <button className='button-custom ml-n-6'>
+                            <FontAwesomeIcon icon={faArrowRight} size="2x" className='mx-1 text-icon4'/>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class='scroll-container mt-4 mb-5'>
