@@ -106,7 +106,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -116,7 +116,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -126,7 +126,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
