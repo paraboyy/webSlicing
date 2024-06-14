@@ -11,19 +11,31 @@ const Home = () => {
     const [cardIndex, setCardIndex] = useState(0);
     const scrollContainerRef = useRef(null);
 
-     const handleLeftClick = () => {
-        if (cardIndex > 0) {
-            setCardIndex(cardIndex - 1);
-        }
-    };
+    //  const handleLeftClick = () => {
+    //     if (cardIndex > 0) {
+    //         setCardIndex(cardIndex - 1);
+    //     }
+    // };
 
-    const handleRightClick = () => {
-        // Jumlah card bisa disesuaikan dengan jumlah card yang ada.
-        const totalCards = 3; // Misalkan ada 3 card, sesuaikan dengan kebutuhan
-        if (cardIndex < totalCards - 1) {
-            setCardIndex(cardIndex + 1);
-        }
-    };
+    // const handleRightClick = () => {
+    //     // Jumlah card bisa disesuaikan dengan jumlah card yang ada.
+    //     const totalCards = 3; // Misalkan ada 3 card, sesuaikan dengan kebutuhan
+    //     if (cardIndex < totalCards - 1) {
+    //         setCardIndex(cardIndex + 1);
+    //     }
+    // };
+
+    const handleLeftClick = () => {
+    if (cardIndex > 0) {
+      setCardIndex(cardIndex - 1);
+    }
+  };
+
+  const handleRightClick = () => {
+    if (cardIndex < 2) { // Adjust based on the number of cards minus one
+      setCardIndex(cardIndex + 1);
+    }
+  };
     
     const scrollContainer = (direction) => {
         if (scrollContainerRef.current) {
@@ -72,46 +84,57 @@ const Home = () => {
             </div>
 
             <div className='mt-7 row mb-4 sec-home'>
-                <div className='p-50 section-text w-35'>
-                    <div className='button-container-2 row'>
-                        <button className='button-custom w-15 mr-n-1' onClick={handleLeftClick}>
-                            <FontAwesomeIcon icon={faArrowLeft} size="2x" className='mx-1 pr-90 text-icon'/>
-                        </button>
-                        <button className='button-custom w-15' onClick={handleRightClick}>
-                            <FontAwesomeIcon icon={faArrowRight} size="2x" className='mx-1 text-icon2'/>
-                        </button>
-                    </div>
-                    <p className='text-white fw-bold font-72 text-start'>Explore Collection</p>
-                    <p className='text-white text-justify'>Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
-                    Explore our Showcase models, <span className='fw-bold'> experience the cutting-edge technology,</span> and see for yourself how VR can
-                    <span className='fw-bold'> transform your design</span> process</p>
-                </div>
-                <div className='d-flex section-card' style={{ transform: `translateX(-${cardIndex * 100}%)`, transition: 'transform 0.5s ease' }}>
-                    <div className='card mx-2'>
-                        <img src="cardphoto.png" className="logo" alt="logo" />
-                        <div className='card-body'>
-                            <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
-                            <p className='p-2 card-description text-justify'>Immerse yourself in this luxurious environment with our VR walkthroughs.
-                            See how chic black tones and elegant design create a stylish, serene space</p>
-                        </div>
-                    </div>
-                    <div className='card mx-2'>
-                        <img src="cardphoto.png" className="logo" alt="logo" />
-                        <div className='card-body'>
-                            <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
-                            <p className='p-2 card-description text-justify'>Immerse yourself in this luxurious environment with our VR walkthroughs.
-                            See how chic black tones and elegant design create a stylish, serene space</p>
-                        </div>
-                    </div>
-                    <div className='card mx-2'>
-                        <img src="cardphoto.png" className="logo" alt="logo" />
-                        <div className='card-body'>
-                            <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
-                            <p className='p-2 card-description text-justify'>Immerse yourself in this luxurious environment with our VR walkthroughs.
-                            See how chic black tones and elegant design create a stylish, serene space</p>
-                        </div>
-                    </div>
-                </div>
+      <div className='p-50 section-text w-35'>
+        <div className='button-container-2 row'>
+          <button className='button-custom w-15 mr-n-1' onClick={handleLeftClick}>
+            <FontAwesomeIcon icon={faArrowLeft} size="2x" className='mx-1 pr-90 text-icon' />
+          </button>
+          <button className='button-custom w-15' onClick={handleRightClick}>
+            <FontAwesomeIcon icon={faArrowRight} size="2x" className='mx-1 text-icon2' />
+          </button>
+        </div>
+        <span className='text-white fw-bold font-72 text-start'>Explore</span>
+        <p className='text-white fw-bold font-72 text-start mt-n-7'>Collection</p>
+        <p className='text-white text-justify'>
+          Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
+          Explore our Showcase models, <span className='fw-bold'>experience the cutting-edge technology,</span> and see for yourself how VR can
+          <span className='fw-bold'>transform your design</span> process
+        </p>
+      </div>
+      <div className='d-flex section-card-wrapper' style={{ overflow: 'hidden', width: '100%' }}>
+        <div className='d-flex section-card' style={{ transform: `translateX(-${cardIndex * 100}%)`, transition: 'transform 0.5s ease' }}>
+          <div className='card mx-2'>
+            <img src="cardphoto.png" className="logo" alt="logo" />
+            <div className='card-body'>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-description text-justify'>
+                Immerse yourself in this luxurious environment with our VR walkthroughs.
+                See how chic black tones and elegant design create a stylish, serene space
+              </p>
+            </div>
+          </div>
+          <div className='card mx-2'>
+            <img src="cardphoto.png" className="logo" alt="logo" />
+            <div className='card-body'>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-description text-justify'>
+                Immerse yourself in this luxurious environment with our VR walkthroughs.
+                See how chic black tones and elegant design create a stylish, serene space
+              </p>
+            </div>
+          </div>
+          <div className='card mx-2'>
+            <img src="cardphoto.png" className="logo" alt="logo" />
+            <div className='card-body'>
+              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery/Pastry shop . SC05</p>
+              <p className='p-2 card-description text-justify'>
+                Immerse yourself in this luxurious environment with our VR walkthroughs.
+                See how chic black tones and elegant design create a stylish, serene space
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
             </div>
 
             <div className='mt-5 dp-flex'>

@@ -420,6 +420,10 @@
     height: 20px;
 }
 
+.mt-n-7 {
+    margin-top: -30px;
+}
+
 
 
 @media (max-width: 1024px) {
