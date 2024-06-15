@@ -55,13 +55,13 @@ const Home = () => {
 
             <div className='card-home mb-4 row'>
                 <div className='w-50 justify-content-center p-50'>
-                    <p className='font-2 text-white text-justify'>Welcome to the <span className='text-bold'>interiorVerse Showcase Collection.</span>
-                    Step into a world of <span className='text-bold'>imagination</span> with our VR environments. From chic bedrooms to
-                    modern kitchens, our <span className='text-bold'> Showcase inspire & captivate.</span></p>
+                    <p className='font-2 text-white text-justify'>Welcome to the <span className='text-heavy'>interiorVerse Showcase Collection.</span>
+                    Step into a world of <span className='text-heavy'>imagination</span> with our VR environments. From chic bedrooms to
+                    modern kitchens, our <span className='text-heavy'> Showcase inspire & captivate.</span></p>
 
                     <p className='font-2 text-white text-justify mt-5'>Perfect for architects, designers, &
-                    homeowners, our VR walkthroughs bring <span className='text-bold'>your visions to life</span>
-                     with stunning <span className='text-bold'>realism</span></p>
+                    homeowners, our VR walkthroughs bring <span className='text-heavy'>your visions to life </span>
+                     with stunning <span className='text-heavy'>realism</span></p>
                     <a href="https://www.youtube.com/playlist?list=PLTgXgeMBmVcj1jFFeG7VH4luU68SoX_vI"><button className='btn dp-block mt-5'>See playlist<FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-2'/></button></a>
                 </div>
                 <div className='w-50 card-after'>
@@ -82,9 +82,9 @@ const Home = () => {
         <span className='text-white text-bold font-72 text-start'>Explore</span>
         <p className='text-white text-bold font-72 text-start mt-n-7'>Collection</p>
         <p className='text-white tx-1 text-justify'>
-          Discover the <span className='text-bold'>future</span> of interior design and architectural visualization with interiorVerse.
-          Explore our Showcase models, <span className='text-bold'>experience the cutting-edge technology,</span> and see for yourself how VR can
-          <span className='text-bold'>transform your design</span> process
+          Discover the <span className='text-heavy'>future</span> of interior design and architectural visualization with interiorVerse.
+          Explore our Showcase models, <span className='text-heavy'>experience the cutting-edge technology,</span> and see for yourself how VR can
+          <span className='text-heavy'> transform your design</span> process
         </p>
       </div>
       <div className='d-flex section-card-wrapper' style={{ overflow: 'hidden', width: '100%' }}>
