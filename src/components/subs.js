@@ -15,9 +15,9 @@ const Subs = () => {
                                 src='card-video.mp4' 
                                 className='logo-sub mt-5 dp-flex' 
                                 controls 
-                                autoPlay 
+                                // autoPlay 
                                 muted
-                                loop
+                                // loop
                             >
                                 and also I can see different sizes and spaces and etc... on your work.
                             </video>                        

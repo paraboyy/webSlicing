@@ -1,17 +1,19 @@
 /* styles.css */
 .play-button {
     background-color: transparent;
-    border: none;
+    border: 5px solid white;
     cursor: pointer;
-    font-size: 100px;
+    border-radius: 100%;
+    font-size: 80px;
     color: #ffffff;
     position: absolute;
-    bottom: 150px;
+    /* bottom: 150px; */
     left: 50%;
+    width: 30%;
     transform: translateX(-50%);
     padding: 10px;
     outline: none;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.3s;
   }
   
@@ -60,4 +62,8 @@
 .logo-2 {
   height: 50%;
   width: 100%;
+}
+
+.logo-3 {
+  width: 70%;
 }

@@ -25,9 +25,9 @@ function VideoPlayer() {
         </video>
         <button className="play-button" onClick={togglePlay}>
           {isPlaying ? (
-            <FontAwesomeIcon icon={faStop} />
+            <FontAwesomeIcon icon={faStop}  />
           ) : (
-            <FontAwesomeIcon icon={faPlay} />
+            <FontAwesomeIcon icon={faPlay} className='logo-3' />
           )}
         </button>
       </div>
