@@ -23,12 +23,12 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-links w-75">
-                <button className='fw-bold'><FontAwesomeIcon icon={faHouse} size="1x" className='mx-1'/>Home</button>
+                <button className='btn-active'><FontAwesomeIcon icon={faHouse} size="1x" className='mx-1'/>Home</button>
                 <div className="dropdown"
                 onMouseEnter={() => setDropdownVisible(true)}
                 onMouseLeave={() => setDropdownVisible(false)}
                 >
-                    <button className='fw-bold'><FontAwesomeIcon icon={faCircleInfo} size="1x" className='mx-1'/>About Us</button>
+                    <button className='btn-display'><FontAwesomeIcon icon={faCircleInfo} size="1x" className='mx-1'/>About Us</button>
                     {dropdownVisible && (
                         <div className="dropdown-content">
                             <div className='down-content'>
@@ -38,24 +38,24 @@ const Navbar = () => {
                         </div>
                     )}
                 </div>
-                <button className='fw-bold'><FontAwesomeIcon icon={faTag} size="1x" className='mx-1'/>Pricing</button>
+                <button className='btn-display'><FontAwesomeIcon icon={faTag} size="1x" className='mx-1'/>Pricing</button>
                 <Link to="/individu">
-                    <button className='fw-bold'>
+                    <button className='btn-display'>
                         <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
                         interioXr
                     </button>
                 </Link>
-                <button className='fw-bold'>
+                <button className='btn-display'>
                     <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
                     {/* <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/> */}
                     WebApp
                 </button>
-                <button className='fw-bold'>
+                <button className='btn-display'>
                     <img className="icon-size-3" src="arrow.svg" alt="interiorVerse" />
                     {/* <FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-1'/> */}
                     iOS/Android
                 </button>
-                <button className='fw-bold'>
+                <button className='btn-display'>
                     <img className="icon-size-2 mr-2" src="hand.svg" alt="interiorVerse" />
                     {/* <FontAwesomeIcon icon={faHand} size="1x" className='mx-1'/> */}
                     Contact Us
