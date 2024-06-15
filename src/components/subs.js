@@ -8,7 +8,7 @@ const Subs = () => {
         <div>
             <div className='p-60'>
                 <div className='container-sub padding-10'>
-                    <p className='text-sub text-end' data-text="Subscribe To Our">Subscribe To Our</p>
+                    <p className='text-sub text-end text-heavy' data-text="Subscribe To Our">Subscribe To Our</p>
                     <div className='dp-flex mt-n-75'>
                         <div className='w-65'>
                             <video 
@@ -23,15 +23,15 @@ const Subs = () => {
                             </video>                        
                         </div>
                         <div className='w-35'>
-                            <p className='text-sub text-end mb-5'>Updates</p>
-                            <p className='text-sub-des text-end'>Stay in the loop with latest developments as we welcome the future, together.</p>
-                            <div className='dp-flex mb-3 justify-content-end'>
+                            <p className='text-sub text-end mb-5 text-heavy'>Updates</p>
+                            <p className='text-sub-des text-end text-semibold'>Stay in the loop with latest developments as we welcome the future, together.</p>
+                            <div className='dp-flex mb-4 mt-4 justify-content-end'>
                                 <img className="icon-size w-15 mx-2" src="Play Circle.png" alt="Play Icon" />
-                                <span className='text-white text-end fs-5'>View Past Newsletters</span>
+                                <span className='text-white text-end text-15'>View Past Newsletters</span>
                             </div>
                             <div className='row'>
                                 <input className='text-white text-center w-75 container-email' placeholder='Email Address'></input>
-                                <p className='text-white text-center w-32 fw-bold container-sing'>Sign Up!<FontAwesomeIcon className='mx-1' icon={faArrowRight} size="1x"/></p>
+                                <p className='text-white text-center w-32 text-Black container-sing'>Sign Up!<FontAwesomeIcon className='mx-1' icon={faArrowRight} size="1x"/></p>
                             </div>
                         </div>
                     </div>

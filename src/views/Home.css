@@ -1,8 +1,63 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../public/font/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../../public/font/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url('../../public/font/Gilroy-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url('../../public/font/Gilroy-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('../../public/font/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../../public/font/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+.text-bold {
+    font-family: 'Gilroy-Bold';
+}
+
+.text-extrabold {
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.text-semibold {
+    font-family: 'Gilroy-SemiBold';
+}
+
+.c-white {
+    color: white;
+}
+
+.text-heavy {
+    font-family: 'Gilroy-Heavy';
+}
+
+.text-Black {
+    font-family: 'Gilroy-Black';
+}
+
 .content-border {
     background-color: #d9d9d9;
     color: #340253;
     border-radius: 45px;
     font-size: 42px;
+    font-family: 'Gilroy-Bold';
 }
 
 .button-container {
@@ -28,6 +83,10 @@
     /* height: 100%; */
     /* width: 100%; */
     border-radius: 20px;
+}
+
+.text-15 {
+    font-size: 14px;
 }
 
 .button-custom {
@@ -63,13 +122,13 @@
 
 
 .line {
-    display: inline-block;;
+    /* display: inline-block; */
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .font-1 {
     text-align: center;
-    font-size: 78px;
+    font-size: 75px;
 }
 
 .font-2 {
@@ -108,10 +167,12 @@
 }
 
 .scroll-container {
+    border-radius: 2rem;
     overflow-x: auto;
     /* display: flex; */
     /* flex-wrap: nowrap; */
-    width: 100%;
+    width: 90%;
+    margin-left: 4%;
     /* padding: 20px; */
 }
 
@@ -199,7 +260,7 @@
     position: relative;
     font-size: 115px;
     color: #fff;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     text-shadow:
         23px 22px 27px rgba(0, 0, 0, 0.33), 
         -6px -4px 18px rgba(255, 255, 255, 0.33);
@@ -234,6 +295,10 @@
     flex-wrap: nowrap;
     width: 100%;
     overflow-x: hidden;
+}
+
+.tx-1 {
+    font-size: 21px;
 }
 
 .sec-home::-webkit-scrollbar {
@@ -286,7 +351,7 @@
 
 .font-white {
     color: #eaeaea;
-    font-size: 43.7px;
+    font-size: 38.88px;
     text-shadow:
         /* 2px 2px 4px rgba(0, 0, 0, 0.5) inset, */
         3.11px 2.97px 3.65px rgba(0, 0, 0, 0.33), 
@@ -332,6 +397,10 @@
     padding-right: 90%;
 }
 
+.pr-3 {
+    padding-right: 3rem;
+}
+
 .padding-10 {
     padding: 7% 6% 10% 0%;
 }
@@ -361,8 +430,7 @@
     color: white;
     font-weight: bold;
     border-radius: 40px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 2% 5% 2% 5%;
     box-shadow: 
         inset -4px -2.4px 4px rgba(0, 0, 0, 0.33), 
         inset 3.2px 3.2px 20px rgba(255, 255, 255, 0.2),
@@ -407,8 +475,8 @@
 }
 
 .icon-size {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .ml-7 {
@@ -439,6 +507,10 @@
 @media (max-width: 1024px) {
     .content-border{
         font-size: 35px;
+    }
+
+    .pr-3 {
+        font-size: 13px;
     }
 
     .card-title {

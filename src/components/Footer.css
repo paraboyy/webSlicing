@@ -24,7 +24,7 @@
 .text-1 {
     color: #3c0089;
     font-size: 30PX;
-    font-weight:900;
+    /* font-weight:900; */
 }
 
 .text-2 {
@@ -57,13 +57,13 @@
 .icon-text {
     color: #808080;
     font-size: 12px;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: justify;
 }
 .icon-text-2 {
     color: #808080;
     font-size: 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: justify;
 }
 

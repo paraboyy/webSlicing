@@ -46,23 +46,23 @@ const Home = () => {
             <VideoPlayer />
             <div className='mt-5 dp-flex justify-content-center'>
                 <div className='w-50'>
-                    <p className='content-border text-center fw-bold'>Explore Our Virtual Realities:</p>
+                    <p className='content-border text-center'>Explore Our Virtual Realities:</p>
                     <p className='text-center'><span className='font-1 text-white'>The </span>
-                    <span className='font-1 text-white fw-bold line'>interiorVerse</span></p>
+                    <span className='font-1 text-white text-bold line'>interiorVerse</span></p>
                     <p className='font-1 text-white'>Showcase Collection</p>
                 </div>
             </div>
 
             <div className='card-home mb-4 row'>
                 <div className='w-50 justify-content-center p-50'>
-                    <p className='font-2 text-white text-justify'>Welcome to the <span className='fw-bold'>interiorVerse Showcase Collection.</span>
-                    Step into a world of <span className='fw-bold'>imagination</span> with our VR environments. From chic bedrooms to
-                    modern kitchens, our <span className='fw-bold'> Showcase inspire & captivate.</span></p>
+                    <p className='font-2 text-white text-justify'>Welcome to the <span className='text-bold'>interiorVerse Showcase Collection.</span>
+                    Step into a world of <span className='text-bold'>imagination</span> with our VR environments. From chic bedrooms to
+                    modern kitchens, our <span className='text-bold'> Showcase inspire & captivate.</span></p>
 
                     <p className='font-2 text-white text-justify mt-5'>Perfect for architects, designers, &
-                    homeowners, our VR walkthroughs bring <span className='fw-bold'>your visions to life</span>
-                     with stunning <span className='fw-bold'>realism</span></p>
-                    <button className='btn dp-block mt-5'>See playlist<FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-2'/></button>
+                    homeowners, our VR walkthroughs bring <span className='text-bold'>your visions to life</span>
+                     with stunning <span className='text-bold'>realism</span></p>
+                    <a href="https://www.youtube.com/playlist?list=PLTgXgeMBmVcj1jFFeG7VH4luU68SoX_vI"><button className='btn dp-block mt-5'>See playlist<FontAwesomeIcon icon={faArrowRight} size="1x" className='mx-2'/></button></a>
                 </div>
                 <div className='w-50 card-after'>
                     <img className="icon-2" src="Component 11.png" alt="interiorVerse" />
@@ -79,12 +79,12 @@ const Home = () => {
             <FontAwesomeIcon icon={faArrowRight} size="2x" className='mx-1 text-icon2' />
           </button>
         </div>
-        <span className='text-white fw-bold font-72 text-start'>Explore</span>
-        <p className='text-white fw-bold font-72 text-start mt-n-7'>Collection</p>
-        <p className='text-white text-justify'>
-          Discover the <span className='fw-bold'>future</span> of interior design and architectural visualization with interiorVerse.
-          Explore our Showcase models, <span className='fw-bold'>experience the cutting-edge technology,</span> and see for yourself how VR can
-          <span className='fw-bold'>transform your design</span> process
+        <span className='text-white text-bold font-72 text-start'>Explore</span>
+        <p className='text-white text-bold font-72 text-start mt-n-7'>Collection</p>
+        <p className='text-white tx-1 text-justify'>
+          Discover the <span className='text-bold'>future</span> of interior design and architectural visualization with interiorVerse.
+          Explore our Showcase models, <span className='text-bold'>experience the cutting-edge technology,</span> and see for yourself how VR can
+          <span className='text-bold'>transform your design</span> process
         </p>
       </div>
       <div className='d-flex section-card-wrapper' style={{ overflow: 'hidden', width: '100%' }}>
@@ -92,7 +92,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start text-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -102,7 +102,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start text-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -112,7 +112,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start text-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -122,7 +122,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start text-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -132,7 +132,7 @@ const Home = () => {
           <div className='card mx-2'>
             <img src="cardphoto.png" className="logo" alt="logo" />
             <div className='card-body'>
-              <p className='p-2 card-title text-start fw-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
+              <p className='p-2 card-title text-start text-bold'>iVr's Showcase Series . Bakery / Pastry shop . SC05</p>
               <p className='p-2 card-description text-justify'>
                 Immerse yourself in this luxurious environment with our VR walkthroughs.
                 See how chic black tones and elegant design create a stylish, serene space
@@ -145,7 +145,7 @@ const Home = () => {
 
             <div className='mt-5 dp-flex'>
                 <div className='w-75'>
-                    <p className='font-white text-start mx-6 fw-bold'>What Our Clients Said about us</p>
+                    <p className='font-white text-start mx-6 text-heavy'>What Our Clients Said about us</p>
                     <p className='font-white-2 text-start mx-6'>Find Out How The Response So Far Has Been:</p>
                 </div>
                 <div className='w-25 p-55'>
@@ -160,65 +160,65 @@ const Home = () => {
                 </div>
             </div>
             <div className='scroll-container mt-4 mb-5' ref={scrollContainerRef} style={{ overflowX: 'scroll', whiteSpace: 'nowrap' }}>
-                <div className='section-card p-3' style={{ display: 'inline-block' }}>
+                <div className='section-card' style={{ display: 'inline-block' }}>
                     <div className='card-slide-active mx-2' style={{ display: 'inline-block' }}>
                         <div className='dp-flex p-3'>
                             <img src="profil-1.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <span className='text-start fs-28'>Amelia Joseph</span>
-                                <p className='bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28 text-semibold'>Amelia Joseph</span>
+                                <p className='text-start fs-15 text-Black'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4' >
-                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                            <p className='text-justify pr-3'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
                         </div>
                     </div>
                     <div className='card-slide mx-2' style={{ display: 'inline-block' }}>
                         <div className='dp-flex p-3'>
                             <img src="profil-2.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <span className='text-start fs-28'>Jacob Joshua</span>
-                                <p className='bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28 text-semibold'>Jacob Joshua</span>
+                                <p className='text-start fs-15 text-Black'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
-                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                            <p className='text-justify pr-3'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
                         </div>
                     </div>
                     <div className='card-slide mx-2' style={{ display: 'inline-block' }}>
                         <div className='dp-flex p-3'>
                             <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <span className='text-start fs-28'>Jacob Joshua</span>
-                                <p className='bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28 text-semibold'>Jacob Joshua</span>
+                                <p className='text-start fs-15 text-Black'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
-                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                            <p className='text-justify pr-3'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
                         </div>
                     </div>
                     <div className='card-slide mx-2' style={{ display: 'inline-block' }}>
                         <div className='dp-flex p-3'>
                             <img src="profil-2.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <span className='text-start fs-28'>Jacob Joshua</span>
-                                <p className='bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28 text-semibold'>Jacob Joshua</span>
+                                <p className='text-Black text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
-                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                            <p className='text-justify pr-3'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
                         </div>
                     </div>
                     <div className='card-slide mx-2' style={{ display: 'inline-block' }}>
                         <div className='dp-flex p-3'>
                             <img src="profil-3.png" className="logo-card w-25" alt="logo" />
                             <div className='w-75 mt-3'>
-                                <span className='text-start fs-28'>Jacob Joshua</span>
-                                <p className='bold text-start fs-15'>Chief Manager</p>
+                                <span className='text-start fs-28 text-semibold'>Jacob Joshua</span>
+                                <p className='text-Black text-start fs-15'>Chief Manager</p>
                             </div>
                         </div>
                         <div className='card-body padding-4'>
-                            <p className='text-justify'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
+                            <p className='text-justify pr-3'>Use this section to describe your company and the products you offer. You could share your company’s story and details about why you are in business.</p>
                         </div>
                     </div>
                 </div>
