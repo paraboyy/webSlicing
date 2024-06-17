@@ -19,6 +19,11 @@
 }
 
 @font-face {
+  font-family: 'Gilroy-HeavyItalic';
+  src: url('../../public/font/Gilroy-HeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Gilroy-SemiBold';
   src: url('../../public/font/Gilroy-SemiBold.ttf') format('truetype');
 }
@@ -28,8 +33,21 @@
   src: url('../../public/font/Gilroy-ExtraBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../../public/font/Gilroy-Light.ttf') format('truetype');
+}
+
+.text-heavy-italic {
+    font-family: 'Gilroy-HeavyItalic';
+}
+
 .text-bold {
     font-family: 'Gilroy-Bold';
+}
+
+.text-light {
+    font-family: 'Gilroy-Light';
 }
 
 .text-extrabold {
