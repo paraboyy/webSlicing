@@ -26,7 +26,8 @@ body, html {
 
 .navbar-card {
     border-radius: 33px;
-    width: 113%;
+    width: 115%;
+
     align-items: center;
     background: linear-gradient(to right, #3C0089, #9747FF);
     box-shadow: 
@@ -127,10 +128,6 @@ body, html {
   .fs-6 {
     font-size: 0.5rem;
   }
-  
-  .navbar-links button:hover {
-    background-color: #9370db;
-  }
 
   .toggle-switch {
     margin-top: 5px;
@@ -185,17 +182,17 @@ body, html {
     transform: translateX(47px);
   }
   
-  .toggle-switch.light {
+  /* .toggle-switch.light {
     background: #7f1dff;
-  }
+  } */
 
   .mr-2 {
     margin-right: 7px;
   }
 
-  .toggle-switch.dark {
+  /* .toggle-switch.dark {
     background: #7f1dff;
-  }
+  } */
 
 .icon-size-3 {
   width: 12px;
@@ -237,7 +234,7 @@ body, html {
 
 @media (min-width: 1600px) {
   .navbar-card {
-      width: 125%;
+      width: 132%;
   }
 
   .logo-size {
@@ -249,10 +246,11 @@ body, html {
 
 @media (min-width: 1400px) and (max-width: 1599px){
   .navbar-card {
-      width: 108%;
+      min-width:115%;
+      width: 115%;
   }
 
   .logo-size {
-    margin-left: 2%;
+    margin-left: 8%;
   }
 }

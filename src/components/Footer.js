@@ -39,11 +39,11 @@ const Footer = () => {
                     <p className='text-Black text-start'>Recent Posts</p>
                     <div className='dp-flex'>
                         <img className="icon-logo" src="post-card-1.png" alt="interiorVerse" />
-                        <p className='text-start text-bold icon-text'>"Designing in a New Dimension: Unleashing Your Creativity with interiorVerse"</p>
+                        <p className='text-start color-black text-bold icon-text'>"Designing in a New Dimension: Unleashing Your Creativity with interiorVerse"</p>
                     </div>
                     <div className='dp-flex mt-4'>
                         <img className="icon-logo" src="pos-card-2.png" alt="interiorVerse" />
-                        <p className='text-start text-bold icon-text'>"The Future of Design Visualization: Embracing Hyper-Realism with interiorVerse"</p>
+                        <p className='text-start color-black text-bold icon-text'>"The Future of Design Visualization: Embracing Hyper-Realism with interiorVerse"</p>
                     </div>
                 </div>
 

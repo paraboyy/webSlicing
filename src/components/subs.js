@@ -27,7 +27,7 @@ const Subs = () => {
                             <p className='text-sub-des text-end text-semibold'>Stay in the loop with latest developments as we welcome the future, together.</p>
                             <div className='dp-flex mb-4 mt-4 justify-content-end'>
                                 <img className="icon-size w-15 mx-2" src="Play Circle.png" alt="Play Icon" />
-                                <span className='text-white text-end text-15'>View Past Newsletters</span>
+                                <span className='text-white text-bold text-end text-15'>View Past Newsletters</span>
                             </div>
                             <div className='row'>
                                 <input className='text-white text-center w-75 container-email' placeholder='Email Address'></input>
