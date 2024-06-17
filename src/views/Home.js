@@ -72,7 +72,58 @@ const Home = () => {
                     </a>
                 </div>
                 <div className='w-50 card-after'>
-                    <img className="icon-2" src="Component 11.png" alt="interiorVerse" />
+                    <div className='dp-in-flex card-1'>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                    </div>
+                    <div className='dp-in-flex card-2'>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                    </div>
+                    <div className='dp-in-flex card-1'>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                        <div class="card c-width mt-2 mx-3">
+                          <div class="c-width mt-2">
+                              <img src="card.png" className="logo" alt="logo" />
+                          </div>
+                        </div>
+                    </div>
+                    {/* <img className="icon-2" src="Component 11.png" alt="interiorVerse" /> */}
                 </div>
             </div>
 
